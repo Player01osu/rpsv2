@@ -14,7 +14,7 @@ char *compinput(randNum) {
   if (!randNum) {
     strcpy(compRps, "rock\n");
     fini = 2;
-  } else if (randNum == 1) {
+  } else if (randNum) {
     strcpy(compRps, "paper\n");
     fini = 0;
   } else {
